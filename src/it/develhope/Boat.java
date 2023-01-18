@@ -10,9 +10,8 @@ class Boat extends Vehicle {
     }
 
     public Boat(double maxKnotsSpeed, int boatKilosWeight){
-        this.type = "Boat";
-        this.maxKnotsSpeed = 35;
-        this.boatKilosWeight = 300;
+        this.maxKnotsSpeed = maxKnotsSpeed;
+        this.boatKilosWeight = boatKilosWeight;
     }
 
     public String getBoatWeightAndSpeed(){
