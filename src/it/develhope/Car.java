@@ -16,9 +16,8 @@ class Car extends Vehicle {
     }
 
     public Car(int numberOfDoors, int numberOfWheels, double carPrice){
-        this.type = "Car";
-        this.carPrice = 20000;
-        this.numberOfDoors = 5;
-        this.numberOfWheels = 4;
+        this.carPrice = carPrice;
+        this.numberOfDoors = numberOfDoors;
+        this.numberOfWheels = numberOfWheels;
     }
 }
